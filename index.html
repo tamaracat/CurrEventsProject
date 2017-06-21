@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Newsapi</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+
+<body>
+
+  <div class="container_main">
+    <h1>Topic Search</h1>
+
+     <!-- Rendered Buttons will get Dumped Here  -->
+      <div id="buttons-view"></div>
+
+      <form id="topic-form">
+        
+
+        <div class="sidebar">
+        <label for="topic-input">Add a Topic</label>
+        <input type="text" id="topic-input"><br>
+        <!-- Button triggers new artist to be added -->
+        <input id="add-topic" type="submit" value="Add a Topic">
+        </div>
+      </form>
+      <!-- End of Form -->
+    <div class="inside_container">
+      <div id="images"></div>
+    </div>
+  </div>
+</body>
+  <script src="assets/javascript/app.js"></script>
+</html>
