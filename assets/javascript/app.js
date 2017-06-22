@@ -1,4 +1,3 @@
-var topics = ["apple marketplace"]
 
 function displayNewsInfo() {
 
@@ -9,7 +8,7 @@ function displayNewsInfo() {
   console.log("topic");
 
   var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json"
-		url += '?' + $.param({'api-key': "25e343624beb4f808ff678bfbcec222c",'q': topic,'begin_date': "20170501"
+		url += '?' + $.param({'api-key': "25e343624beb4f808ff678bfbcec222c",'q': "metalica",'begin_date': "20170501"
 		});
       
     $.ajax({
@@ -23,4 +22,4 @@ function displayNewsInfo() {
         console.log(url);
         // Creates AJAX call for the specific movie button being clicke
   }
-$(document).on("click", ".topic-input", displayNewsInfo);
+$(document).on("click", ".add-topic", displayNewsInfo);
