@@ -1,38 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-  <meta charset="utf-8">
-  <title>Newsapi</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Added link to the jQuery Library -->
-    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<title>CurrentEventsProject</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
-
 <body>
 
-  <div class="container_main">
-    <h1>Topic Search</h1>
-
-     <!-- Rendered Buttons will get Dumped Here  -->
-      <div id="buttons-view"></div>
-
-      <form id="topic-form">
-        
-
-        <div class="sidebar">
-        <label for="topic-input">Add a Topic</label>
-        <input type="text" id="topic-input"><br>
-        <!-- Button triggers new artist to be added -->
-        <input id="add-topic" type="submit" value="Add a Topic">
-        </div>
-      </form>
-      <!-- End of Form -->
-    <div class="inside_container">
-      <div id="images"></div>
-    </div>
-  </div>
+<div class="container text-center">
+<header id="title">
+	<div class="row">
+		<div class="col-12-lg">
+			<h1>Title</h1>
+			<h4>Read detailed articles at the Touch of a finger!</h4>
+		</div>
+	</div>
+	<nav class="text-center articles">
+		<div class="row">
+			<div class="col-lg-12">
+				<div id="articleCategories">
+					<a id="show1" href="#trending">Trending</a>
+					<a id="show2" href="#currentEvents">Current Events</a>
+					<a id="show3" href="#technology">Technology</a>
+					<a id="show4" href="#design">Design</a>
+					<a id="show5" href="#politics">Politics</a>
+					<a id="show6" href="#Business">Business</a>
+					<a id="show7" href="#goodReads">Good Reads</a>
+					<a id="show8" href="#science">Science</a>
+					<a id="show9" href="#worldEvents">World Events</a>
+					<a id="show10" href="#art">Art</a>
+					<a id="show11" href="#selfIimprovment">Self Improvement</a>
+					<a id="show12" href="#theFuture">The Future</a>
+					<a id="show13" href="#misc">Misc.</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+<section id="articles1">
+	<div class="row">
+		<div class="col-12-lg">
+			<div id="displayArticles">
+			</div>
+		</div>
+	</div>
+</section>
+<section id="articles2">
+	<div class="row">
+		<div class="col-12-lg">
+			<div id="displayArticles">
+			</div>
+		</div>
+	</div>
+</section>
+<section id="articles3">
+	<div class="row">
+		<div class="col-12-lg">
+			<div id="displayArticles">
+			</div>
+		</div>
+	</div>
+</section>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="./assets/javascript/app.js"></script>
 </body>
-  <script src="assets/javascript/app.js"></script>
+>>>>>>> Stashed changes
 </html>
